@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.36 13.73">
+  <defs>
+    <style>
+      .e {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="icons">
+    <g id="d" data-name="devcon">
+      <polygon class="e" points="4.22 2.67 0 6.88 4.19 11.07 5.5 9.75 2.63 6.88 5.53 3.98 4.22 2.67"/>
+      <polygon class="e" points="12.15 2.67 10.83 3.98 13.73 6.88 10.86 9.75 12.18 11.07 16.36 6.88 12.15 2.67"/>
+      <rect class="e" x="1.33" y="5.93" width="13.71" height="1.86" transform="translate(-.54 13.03) rotate(-75.25)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16.29 18.72">
+  <defs>
+    <style>
+      .d {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="icons">
+    <g>
+      <rect class="d" x="9.73" y="6.42" width="2.57" height="2.57" transform="translate(-2.22 10.05) rotate(-45)"/>
+      <rect class="d" x="-.83" y="12.34" width="11.84" height="2.57" transform="translate(-8.14 7.59) rotate(-45)"/>
+      <path class="d" d="m5.82,7.02c.2-1,.98-1.79,1.98-1.98-1-.2-1.79-.98-1.98-1.98-.2,1-.98,1.79-1.98,1.98,1,.2,1.79.98,1.98,1.98Z"/>
+      <path class="d" d="m15.82,1.98c-1-.2-1.79-.98-1.98-1.98-.2,1-.98,1.79-1.98,1.98,1,.2,1.79.98,1.98,1.98.2-1,.98-1.79,1.98-1.98Z"/>
+      <path class="d" d="m14.73,11.33c-.15.79-.77,1.41-1.56,1.56.79.15,1.41.77,1.56,1.56.15-.79.77-1.41,1.56-1.56-.79-.15-1.41-.77-1.56-1.56Z"/>
+    </g>
+  </g>
+</svg>

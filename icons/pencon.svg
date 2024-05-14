@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.71 15.71">
+  <defs>
+    <style>
+      .e {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="icons">
+    <g id="d" data-name="pencon">
+      <path class="e" d="m2.96,5.26L0,14.62l5.04-5.04c-.1-.47.02-.97.38-1.34.56-.56,1.48-.56,2.04,0,.56.56.56,1.48,0,2.04-.36.36-.87.49-1.34.38L1.09,15.71l.39-.12,8.97-2.83,1.79-5.69h0s-3.6-3.6-3.6-3.6l-5.69,1.8Z"/>
+      <rect class="e" x="11.05" y=".44" width="3.36" height="5.09" transform="translate(1.62 9.88) rotate(-45)"/>
+    </g>
+  </g>
+</svg>

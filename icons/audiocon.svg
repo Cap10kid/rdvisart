@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="b" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10.88 12.09">
+  <defs>
+    <style>
+      .e {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="c" data-name="icons">
+    <g id="d" data-name="audiocon">
+      <path class="e" d="m2.42,9.67h1.21V2.42h-1.21v7.26Zm2.42,2.42h1.21V0h-1.21v12.09h0ZM0,7.26h1.21v-2.42H0v2.42Zm7.26,2.42h1.21V2.42h-1.21v7.26Zm2.42-4.84v2.42h1.21v-2.42h-1.21Z"/>
+    </g>
+  </g>
+</svg>
