@@ -4,17 +4,22 @@
     /* ░░░░░░░░░   VARIABLES   ░░░░░░░░░ */
 
     --font:"Courier New", serif;
-    --prim-font:"Funnel Sans";
     --deco-font:"Funnel Display";
+    --prim-font:"Funnel Sans";
+    --color-gray-flat:#ebebeb;
+    --color-indigo: indigo;
+
 
     /* ░░░░░░░░░   MAIN   ░░░░░░░░░ */
 
     font-family: var(--font);
+
 }
 
 body{
 
-    background-color: #ebebeb;
+    background-color: var("--color-indigo");
     background-image: url("../content/grid-instance-01.png");
     background-size: 91px;
+
 }
