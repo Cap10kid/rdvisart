@@ -1,7 +1,7 @@
 
 *{
     --font: verdana;
-    font-style: var(--font);
+    font-family: var(--font);
 }
 
 body{
