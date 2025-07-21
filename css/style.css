@@ -1,9 +1,11 @@
 
 *{
-    --font: "Courier New", serif ;
+    --font: "Tomorrow","Courier New", serif ;
     font-family: var(--font);
 }
 
 body{
+
     background-color: #ebebeb;
+
 }
