@@ -18,7 +18,7 @@
 
 body{
 
-    background-color: var("--color-indigo");
+    background-color: var(--color-indigo);
     background-image: url("../content/grid-instance-01.png");
     background-size: 91px;
 
