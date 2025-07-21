@@ -6,7 +6,7 @@
     --font:"Courier New", serif;
     --deco-font:"Funnel Display";
     --prim-font:"Funnel Sans";
-    --color-gray-flat:#ebebeb;
+    --color-gray-flat: hsl(0, 0%, 95%);
     --color-indigo: indigo;
 
 
@@ -18,8 +18,8 @@
 
 body{
 
-    background-color: var(--color-gray-flat);
+    /* background-color: var(--color-gray-flat);
     background-image: url("../content/grid-instance-01.png");
-    background-size: 91px;
+    background-size: 91px; */
 
 }
