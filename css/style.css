@@ -15,10 +15,6 @@
 body{
 
     background-color: #ebebeb;
+    background-image: url("../content/grid-instance-01.png");
     
-}
-
-h1 {
-    background-image: url("content/grid-instance-01.png") ;
-
 }
