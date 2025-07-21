@@ -1,7 +1,9 @@
 
 *{
+    --font: verdana;
+    font-style: var(--font);
 }
 
 body{
-    background-color: blue;
+    background-color: #ebebeb;
 }
