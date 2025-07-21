@@ -1,6 +1,6 @@
 
 *{
-    --font: verdana;
+    --font: "Courier Neue", serif ;
     font-family: var(--font);
 }
 
