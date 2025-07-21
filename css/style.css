@@ -1,6 +1,8 @@
 
 *{
-    --font: "Tomorrow","Courier New", serif ;
+    --font:"Courier New", serif;
+    --prim-font:"Funnel Sans";
+    --deco-font:"Funnel Display";
     font-family: var(--font);
 }
 
