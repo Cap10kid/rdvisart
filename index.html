@@ -1,38 +1,169 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta content="welcome to RDVISART">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My Website</title>
-        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+        <!-- <link rel="stylesheet" href="src/src.css"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+        <!-- rbrt dvs -->
+
     </head>
     <body>
-        <nav>  </nav>
-        <section>
-            <div class="container" style="max-width: 70%; margin: auto;">
-                <h1 style="font-family: var(--deco-font); font-size: 48px;">
-                    Design @ Reach
-                </h1>       
-                <p>
-                    Content Designed for your mission
-                </p>
-            </div>
-        </section>        
-    <!--     
-        <section>
-            <div class="container">
-                
-            </div>
-        </section>
-        <section>
-            <div class="container">
+        <style>
+            *{
 
+                /* theme  */
+                /* theme dark (default) */
+                /* theme light  */
+                /* theme switch */
+                /* color */
+                --blk: rgb(11, 20, 23);
+                --wht: rgb(255, 255, 255);
+                /* --blk-scdry: rgb(20, 35, 41); */
+                --wht-scdry: rgba(255, 255, 255, 0.65);
+                --dark-teal: rgba(20, 35, 41, 1);
+
+                --select: hsla(240, 100%, 50%, 1);
+                
+                /* shaping  */
+                --brdr-rad: 2px;
+                --brdr-col: rgba(255, 255, 255, 0.116);
+                --border: solid 0.4px var(--brdr-col);
+
+                /* type  */
+
+                font-family: "Space Grotesk", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 300;
+                font-style: normal;
+
+            }
+            
+            body{
+
+                background-color: var(--blk);
+                color: var(--wht);
+                
+                background-image: url("https://raw.githubusercontent.com/Cap10kid/rdvisart/refs/heads/main/content/grid-instance-02.png");
+                background-size: 64px;
+                background-blend-mode: multiply;
+
+
+            }
+
+            .p-white{
+
+                color: var(--wht-scdry);
+
+            }
+
+            .card-element{
+
+                /* display */
+                display: block;
+                padding: 10 20;
+                background-color: var(--dark-teal);
+                border-radius: var(--brdr-rad);
+                /* border: solid 0.4px var(--brdr-col); */
+                border:var(--border);
+
+                /* effects */
+                /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5) ; */
+
+            }
+            a{
+                font-weight: 800;
+                /* display */
+                color:var(--blk);
+                display: block;
+                padding: 10 20;
+                background-color: var(--wht-scdry);
+                border-radius: var(--brdr-rad);
+                border:var(--border);
+                margin-top: 8px;
+
+                text-transform: capitalize;
+                text-decoration: none;
+
+                /* effects */
+                box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5) ;
+                transition-duration: 0.2s;
+            }
+
+            a:hover{
+                color: var(--wht-scdry);
+                background-color: black;
+                cursor: pointer;
+            }
+
+            a::before{
+                content: '╡';
+            }
+
+            .container{
+                max-width: 88svw;
+                margin: auto;
+            }
+
+            .flow-container{
+                margin-top:20px;
+                border-radius: 30px;
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+                padding:15 20;
+                background-color: var(--dark-teal);
+            }
+
+            @keyframes flowLeft{
+                0%{left: 100% ;}
+                100%{left: -10px;}
+            }
+
+            .flow-content{
+                border-radius: 3px;
+                position: absolute;
+                width: 20px;
+                height: 6px;
+                background-color: var(--blk);
+                animation: flowLeft 3s linear infinite;
+            }
+
+            .flow-content:nth-child(2) { animation-delay: 1s; }
+            .flow-content:nth-child(3) { animation-delay: 2s; }
+
+            </style>
+        <section>
+            <div class="container">
+                <div class="flow-container">
+                    <div class="flow-content"></div>
+                    <div class="flow-content"></div>
+                    <div class="flow-content"></div>
             </div>
         </section>
-        <footer>
-            
-        </footer> -->
+        <section>
+            <div class="container">
+                <h1 class="hero-text" style="margin-top: 50px; font-weight: 600;">Hello World</h1>
+                <p class="p-white">greetings from me</p>
+                <div class="card-element">
+                    <p>
+                        I love that everytime Proctor is introduced in each video it’s accompanied by “no nudes so fah”😭
+                    </p>
+                </div>
+                <a href="#" style="display: inline-block; "> connect </a>
+                <a href="#" style="display: inline-block;"> new project</a>
+                <a href="#" style="display: inline-block;"> learn more</a>
+        </section>
+
+
+        <!-- <h1></h1> -->
+        <!-- <h1></h1> -->
+        
     </body>
 </html>
