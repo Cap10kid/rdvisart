@@ -10,12 +10,16 @@
     --font02:"Space Grotesk";
     --font03:"Doto";
 
+    --btn-size:10 15;
+    --logo-size: 40px;
+
     /* ░░░░░░░░░   colors   ░░░░░░░░░ */
     --middle:rgba(128, 128, 128, 0.5);
     --blue:#3D59F5;
+    --orange:#E87223;
     --black:hsl(0, 0%, 2%);
     --white:rgb(255, 255, 255);
-    --white-ish:hsl(0, 0%, 97%);
+    --white-ish:hsl(0, 0%, 96%);
 
     /* ░░░░░░░░░   MAIN   ░░░░░░░░░ */
 
@@ -40,6 +44,14 @@ body{
 
 }
 
+.container-small{
+    margin: auto;
+    max-width: 550px;
+}
+.container{
+    max-width: 1244px;
+    margin: auto;
+}
 
 .section{
     position: relative;
@@ -48,10 +60,24 @@ body{
 
 h1, h2, h3{
 
+    text-transform: uppercase;
     font-family:var(--font01);
+    margin: 0;
 }
 
 /* ░░░░░░░░░   FUN   ░░░░░░░░░ */
+
+span{
+    padding: 2 5;
+    font-family: var(--font03);
+    font-weight: 400;
+    transition: font-weight 0.3s ease;
+}
+
+
+span:hover{
+    font-weight: 700;
+}
 
 .doto-box{
     font-size: 2rem;
@@ -60,4 +86,42 @@ h1, h2, h3{
     background-color: var(--blue);
     font-family: var(--font03);
     color: var(--white-ish);
+}
+
+a{
+    font-family: var(--font03);
+    text-transform: uppercase;
+    transition: font-weight 0.3s ease;
+}
+
+.button{
+    /* border:dashed 1px var(--middle); */
+    border-radius: 3px;
+    background-color: var(--color-fg);
+    color: var(--color-bg);
+    padding:var(--btn-size);
+    text-decoration: none;
+
+   
+    /* transition: background-color 0.3s ease; */
+}
+
+
+.button-alt{
+    text-decoration: none;
+    color: var(--color-fg);
+    background-color: var(--color-bg);
+    border:dashed 1px var(--middle);
+    border-radius: 3px;
+    padding:var(--btn-size);
+}
+
+.button-alt:hover{
+    color: var(--color-bg);
+    background-color: var(--blue);
+    font-weight: 700;
+}
+.button:hover{
+    background-color: var(--blue);
+    font-weight: 700;
 }
