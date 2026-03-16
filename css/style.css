@@ -89,6 +89,7 @@ span:hover{
 }
 
 a{
+    padding:var(--btn-size);
     font-family: var(--font03);
     text-transform: uppercase;
     transition: font-weight 0.3s ease;
