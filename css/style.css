@@ -57,7 +57,7 @@ h1, h2, h3{
     font-size: 2rem;
     padding: 10 24;
     text-align: right;
-    background-color: blue;
+    background-color: var(--blue);
     font-family: var(--font03);
     color: var(--white-ish);
 }
