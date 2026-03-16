@@ -1,25 +1,63 @@
 
 *{
     
+    
     /* ░░░░░░░░░   VARIABLES   ░░░░░░░░░ */
 
     --font:"Courier New", serif;
-    --deco-font:"Funnel Display";
-    --prim-font:"Funnel Sans";
-    --color-gray-flat: hsl(0, 0%, 95%);
-    --color-indigo: indigo;
+    --font00:"Arial";
+    --font01:"Funnel Display";
+    --font02:"Space Grotesk";
+    --font03:"Doto";
 
+    /* ░░░░░░░░░   colors   ░░░░░░░░░ */
+    --middle:rgba(128, 128, 128, 0.5);
+    --blue:hsl(271, 84%, 52%);
+    --black:hsl(0, 0%, 2%);
+    --white:rgb(255, 255, 255);
+    --white-ish:hsl(0, 0%, 97%);
 
     /* ░░░░░░░░░   MAIN   ░░░░░░░░░ */
 
-    font-family: var(--font);
+
+
+    font-family: var(--font02);
 
 }
+:root {
+    --color-bg:var(--white-ish);
+    --color-fg:var(--black);
+
+    /* --transition-theme: background-color 0.2s, color 0.2s; */
+}
+
 
 body{
 
-    /* background-color: var(--color-gray-flat);
-    background-image: url("../content/grid-instance-01.png");
-    background-size: 91px; */
+    background-color: var(--color-bg); 
+    /* background-image: url("../content/grid-instance-01.png"); */
+    /* background-size: 91px; */ 
 
+}
+
+
+.section{
+    position: relative;
+    /* max-height:100svh; */
+}
+
+h1, h2, h3{
+
+    font-family:var(--font01);
+}
+
+/* ░░░░░░░░░   FUN   ░░░░░░░░░ */
+
+.doto-box{
+    font-size: 2rem;
+    padding: 10 24;
+    text-align: right;
+    background-color: blue;
+    font-family: var(--font03);
+    color: var(--white-ish);
 }
