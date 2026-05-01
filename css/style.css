@@ -29,7 +29,7 @@
 
 }
 :root {
-    --color-bg:var(--white-ish);
+    --color-bg:var(--white);
     --color-fg:var(--black);
 
     /* --transition-theme: background-color 0.2s, color 0.2s; */
